@@ -1,0 +1,155 @@
+{
+  "lang": { "name": "English" },
+  "gate": {
+    "title": "Private invitation",
+    "subtitle": "Please enter your invitation code to open our invitation.",
+    "placeholder": "Invitation code",
+    "submit": "Enter",
+    "checking": "Checking...",
+    "invalid": "This invitation code is not valid. Please check it.",
+    "error": "Something went wrong. Please try again."
+  },
+  "hero": {
+    "kicker": "Save the date",
+    "couple": "Amin & Aicha",
+    "families": "The Chebbi & Hmidi families have the honour of inviting you to celebrate the wedding of their children",
+    "cta": "Fill the form",
+    "scroll": "Discover"
+  },
+  "countdown": {
+    "title": "Counting down",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "started": "The big day is here!"
+  },
+  "details": {
+    "title": "Wedding details",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "address": "Address",
+    "mapTitle": "How to find us",
+    "openMaps": "Open in Google Maps"
+  },
+  "gallery": {
+    "title": "Our memories",
+    "subtitle": "A few moments together",
+    "empty": "Photos will be added soon."
+  },
+  "form": {
+    "title": "Your personalised invitation",
+    "subtitle": "Fill in your details to generate your invitation with a QR code.",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "maritalStatus": "Marital status",
+    "married": "Married",
+    "single": "Single",
+    "spouseName": "Spouse name",
+    "spousePlaceholder": "Your husband / wife name",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "First and last name",
+    "phone": "Phone number",
+    "phonePlaceholder": "+216 00 000 000",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "accompanying": "Number of accompanying guests",
+    "submit": "Generate my invitation",
+    "submitting": "Generating...",
+    "back": "Back to invitation",
+    "errors": {
+      "fullName": "Please enter your full name.",
+      "phone": "Invalid phone number.",
+      "email": "Invalid email address.",
+      "generic": "Saving failed. Please try again."
+    }
+  },
+  "pdf": {
+    "ready": "Your invitation is ready!",
+    "readyText": "Download your invitation or share it with your loved ones.",
+    "download": "Download PDF",
+    "generating": "Creating PDF...",
+    "share": "Share on WhatsApp",
+    "shareText": "We are delighted to invite you to the wedding of Amin & Aicha!",
+    "newInvitation": "New invitation",
+    "guestCode": "Entry code",
+    "invitationFor": "Invitation for",
+    "scanNote": "Show this QR code at the entrance",
+    "accompaniedBy": "Accompanied by"
+  },
+  "admin": {
+    "title": "Admin area",
+    "login": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signUp": "Create admin account",
+    "signOut": "Sign out",
+    "noAccess": "Your account does not have admin rights.",
+    "claimAdmin": "Become administrator",
+    "tabs": {
+      "guests": "Guests",
+      "settings": "Settings",
+      "gallery": "Gallery",
+      "codes": "Codes"
+    },
+    "guests": {
+      "title": "Guest list",
+      "search": "Search a guest...",
+      "export": "Export as CSV",
+      "empty": "No guests yet.",
+      "count": "guest(s)",
+      "columns": {
+        "name": "Name",
+        "spouse": "Spouse",
+        "gender": "Gender",
+        "status": "Status",
+        "phone": "Phone",
+        "email": "Email",
+        "accompanying": "Guests",
+        "date": "Date",
+        "code": "QR code"
+      }
+    },
+    "settings": {
+      "title": "Wedding settings",
+      "date": "Wedding date",
+      "time": "Time",
+      "venueName": "Venue name",
+      "venueAddress": "Address",
+      "lat": "Latitude",
+      "lng": "Longitude",
+      "save": "Save",
+      "saved": "Settings saved."
+    },
+    "gallery": {
+      "title": "Photo gallery",
+      "upload": "Add photos",
+      "uploading": "Uploading...",
+      "delete": "Delete",
+      "up": "Move up",
+      "down": "Move down",
+      "empty": "No photos."
+    },
+    "codes": {
+      "title": "Invitation codes",
+      "new": "New code",
+      "label": "Label (optional)",
+      "generate": "Generate",
+      "used": "Used",
+      "unused": "Available",
+      "toggle": "Toggle status",
+      "delete": "Delete",
+      "empty": "No codes."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "retry": "Retry",
+    "optional": "optional",
+    "backHome": "Back home"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "lang": { "name": "Français" },
+  "gate": {
+    "title": "Invitation privée",
+    "subtitle": "Veuillez saisir votre code d'invitation pour découvrir notre invitation.",
+    "placeholder": "Code d'invitation",
+    "submit": "Entrer",
+    "checking": "Vérification...",
+    "invalid": "Ce code d'invitation est invalide. Merci de vérifier.",
+    "error": "Une erreur est survenue. Réessayez."
+  },
+  "hero": {
+    "kicker": "Save the date",
+    "couple": "Amin & Aicha",
+    "families": "Les familles Chebbi & Hmidi ont l'honneur de vous inviter à célébrer le mariage de leurs enfants",
+    "cta": "Remplir le formulaire",
+    "scroll": "Découvrir"
+  },
+  "countdown": {
+    "title": "Plus que",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "started": "Le grand jour est arrivé !"
+  },
+  "details": {
+    "title": "Détails du mariage",
+    "date": "Date",
+    "time": "Heure",
+    "venue": "Lieu",
+    "address": "Adresse",
+    "mapTitle": "Comment nous rejoindre",
+    "openMaps": "Ouvrir dans Google Maps"
+  },
+  "gallery": {
+    "title": "Nos souvenirs",
+    "subtitle": "Quelques instants partagés",
+    "empty": "Les photos seront ajoutées bientôt."
+  },
+  "form": {
+    "title": "Votre invitation personnalisée",
+    "subtitle": "Renseignez vos informations pour générer votre invitation avec QR code.",
+    "gender": "Civilité",
+    "male": "Homme",
+    "female": "Femme",
+    "maritalStatus": "Situation",
+    "married": "Marié(e)",
+    "single": "Célibataire",
+    "spouseName": "Nom du conjoint",
+    "spousePlaceholder": "Nom de votre époux / épouse",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Prénom et nom",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+216 00 000 000",
+    "email": "Email",
+    "emailPlaceholder": "vous@exemple.com",
+    "accompanying": "Nombre d'accompagnants",
+    "submit": "Générer mon invitation",
+    "submitting": "Génération en cours...",
+    "back": "Retour à l'invitation",
+    "errors": {
+      "fullName": "Merci d'indiquer votre nom complet.",
+      "phone": "Numéro de téléphone invalide.",
+      "email": "Adresse email invalide.",
+      "generic": "L'enregistrement a échoué. Réessayez."
+    }
+  },
+  "pdf": {
+    "ready": "Votre invitation est prête !",
+    "readyText": "Téléchargez votre invitation ou partagez-la avec vos proches.",
+    "download": "Télécharger le PDF",
+    "generating": "Création du PDF...",
+    "share": "Partager sur WhatsApp",
+    "shareText": "Nous avons le plaisir de vous inviter au mariage d'Amin & Aicha !",
+    "newInvitation": "Nouvelle invitation",
+    "guestCode": "Code d'entrée",
+    "invitationFor": "Invitation pour",
+    "scanNote": "Présentez ce QR code à l'entrée",
+    "accompaniedBy": "Accompagné(e) de"
+  },
+  "admin": {
+    "title": "Espace administrateur",
+    "login": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "signUp": "Créer un compte admin",
+    "signOut": "Déconnexion",
+    "noAccess": "Votre compte n'a pas les droits administrateur.",
+    "claimAdmin": "Devenir administrateur",
+    "tabs": {
+      "guests": "Invités",
+      "settings": "Paramètres",
+      "gallery": "Galerie",
+      "codes": "Codes"
+    },
+    "guests": {
+      "title": "Liste des invités",
+      "search": "Rechercher un invité...",
+      "export": "Exporter en CSV",
+      "empty": "Aucun invité pour le moment.",
+      "count": "invité(s)",
+      "columns": {
+        "name": "Nom",
+        "spouse": "Conjoint",
+        "gender": "Civilité",
+        "status": "Situation",
+        "phone": "Téléphone",
+        "email": "Email",
+        "accompanying": "Accomp.",
+        "date": "Date",
+        "code": "Code QR"
+      }
+    },
+    "settings": {
+      "title": "Paramètres du mariage",
+      "date": "Date du mariage",
+      "time": "Heure",
+      "venueName": "Nom du lieu",
+      "venueAddress": "Adresse",
+      "lat": "Latitude",
+      "lng": "Longitude",
+      "save": "Enregistrer",
+      "saved": "Paramètres enregistrés."
+    },
+    "gallery": {
+      "title": "Galerie photos",
+      "upload": "Ajouter des photos",
+      "uploading": "Envoi en cours...",
+      "delete": "Supprimer",
+      "up": "Monter",
+      "down": "Descendre",
+      "empty": "Aucune photo."
+    },
+    "codes": {
+      "title": "Codes d'invitation",
+      "new": "Nouveau code",
+      "label": "Libellé (optionnel)",
+      "generate": "Générer",
+      "used": "Utilisé",
+      "unused": "Disponible",
+      "toggle": "Changer le statut",
+      "delete": "Supprimer",
+      "empty": "Aucun code."
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue.",
+    "retry": "Réessayer",
+    "optional": "optionnel",
+    "backHome": "Retour à l'accueil"
+  }
+}
