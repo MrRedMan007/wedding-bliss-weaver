@@ -14,16 +14,173 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      gallery_photos: {
+        Row: {
+          caption: string | null
+          created_at: string
+          id: string
+          sort_order: number
+          storage_path: string
+        }
+        Insert: {
+          caption?: string | null
+          created_at?: string
+          id?: string
+          sort_order?: number
+          storage_path: string
+        }
+        Update: {
+          caption?: string | null
+          created_at?: string
+          id?: string
+          sort_order?: number
+          storage_path?: string
+        }
+        Relationships: []
+      }
+      guests: {
+        Row: {
+          accompanying_count: number
+          created_at: string
+          email: string
+          full_name: string
+          gender: string
+          id: string
+          invitation_code_used: string | null
+          language: string
+          marital_status: string
+          phone: string
+          qr_code_value: string
+          spouse_name: string | null
+        }
+        Insert: {
+          accompanying_count?: number
+          created_at?: string
+          email: string
+          full_name: string
+          gender: string
+          id?: string
+          invitation_code_used?: string | null
+          language?: string
+          marital_status: string
+          phone: string
+          qr_code_value?: string
+          spouse_name?: string | null
+        }
+        Update: {
+          accompanying_count?: number
+          created_at?: string
+          email?: string
+          full_name?: string
+          gender?: string
+          id?: string
+          invitation_code_used?: string | null
+          language?: string
+          marital_status?: string
+          phone?: string
+          qr_code_value?: string
+          spouse_name?: string | null
+        }
+        Relationships: []
+      }
+      invitation_codes: {
+        Row: {
+          code: string
+          created_at: string
+          guest_label: string | null
+          id: string
+          is_used: boolean
+        }
+        Insert: {
+          code: string
+          created_at?: string
+          guest_label?: string | null
+          id?: string
+          is_used?: boolean
+        }
+        Update: {
+          code?: string
+          created_at?: string
+          guest_label?: string | null
+          id?: string
+          is_used?: boolean
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          created_at: string
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
+      wedding_settings: {
+        Row: {
+          created_at: string
+          id: string
+          updated_at: string
+          venue_address: string
+          venue_lat: number | null
+          venue_lng: number | null
+          venue_name: string
+          wedding_date: string
+          wedding_time: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          updated_at?: string
+          venue_address?: string
+          venue_lat?: number | null
+          venue_lng?: number | null
+          venue_name?: string
+          wedding_date?: string
+          wedding_time?: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          updated_at?: string
+          venue_address?: string
+          venue_lat?: number | null
+          venue_lng?: number | null
+          venue_name?: string
+          wedding_date?: string
+          wedding_time?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      check_invitation_code: { Args: { _code: string }; Returns: boolean }
+      claim_first_admin: { Args: never; Returns: boolean }
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "admin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +307,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["admin"],
+    },
   },
 } as const
